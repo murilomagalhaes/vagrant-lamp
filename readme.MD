@@ -37,6 +37,12 @@ You can access them on your host machine via the ip `192.168.33.20`
 
 **If you wish to change any of these default configurations, just edit the `VagrantFile` and run `vagrant reload`**
 
+## DB Connection via MySQL Workbench
+**Connections via MySQL Workbench can be made by choosing `TCP/IP over SSH`. The default connection paramters are:**
+- SSH Hostname: 127.0.0.1:2222
+- SSH Username: vagrant
+- SSH KeyFile: (Can be found inside your installation folder on '.vagrant\machines\default\virtualbox\private_key')
+
 ## Tips:
 
 - Connecting your DB via HeidiSQL can be problematic. I couldn't make it work.
