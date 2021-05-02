@@ -1,0 +1,8 @@
+.vagrant/
+
+*.log
+
+apps/*
+!apps/.gitkeep
+
+*.box
