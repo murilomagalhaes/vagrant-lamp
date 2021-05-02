@@ -44,7 +44,7 @@ apt install -y nodejs
 apt install -y npm
 
 # Install MYSQL
-debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
+debconf-set-selections <<< 'mysql-server mysql-server/root_password password Mysql@vagrant'
 debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password Mysql@vagrant'
 apt install -y mysql-server
 
