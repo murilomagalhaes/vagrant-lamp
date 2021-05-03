@@ -50,3 +50,10 @@ apt install -y mysql-server
 
 # Restart Apache
 sudo service apache2 restart
+
+# Clean up
+apt -y autoremove
+apt -y clean
+
+# Disable Sleep
+systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
