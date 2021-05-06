@@ -2,7 +2,7 @@
 apt update
 
 # Upgrade Packages
-apt upgrade
+apt upgrade -y
 
 # Install Git
 apt install -y git
